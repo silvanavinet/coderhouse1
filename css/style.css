@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: black;
+}
+
+
+
+/* HEADER & NAV */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 4%;
+    font-weight: bold;
+    position: relative;
+}
+.logo-container{
+    order: 0;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 10%;
+    width: 10%;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: papayawhip;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color:  rgb(92, 218, 191);
+}
+
+/*MAIN*/
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: papayawhip;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 110px;
+}
+.presentacion-prodcutos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 40px; 
+}
+.section1 h2{
+    color: papayawhip;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 50px;
+}
+.imagen-productos-fermentados{
+    height: 30%;
+    width: 30%;
+    margin-right: 80px;
+}
+
+.pregunta-fermentados h2{
+    color: rgb(92, 218, 191);
+    padding-top: 170px;
+    padding-left: 30%;
+    font-size: 40px;
+ 
+}
+.section1 p{
+    color: papayawhip;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 15%;
+    align-items: center;
+    padding-bottom: 10%;
+    font-size: 30px;
+}
+
+.imagen-presentacion{
+    height: 80%;
+    width: 100%;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
+
