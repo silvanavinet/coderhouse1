@@ -1,0 +1,23 @@
+{
+  "name": "coderhouse1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass --watch sass/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://silvanavinet@github.com/silvanavinet/coderhouse1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvanavinet/coderhouse1/issues"
+  },
+  "homepage": "https://github.com/silvanavinet/coderhouse1#readme",
+  "dependencies": {
+    "sass": "^1.76.0"
+  }
+}

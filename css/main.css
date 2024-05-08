@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: #ffefd5;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ffefd5;
+}
+
+.navbar-brand {
+  order: 0;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 10%;
+  width: 10%;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  color: #ffefd5;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(63, 60, 42);
+}
+
+/*MAIN*/
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffefd5;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 50px;
+}
+
+.presentacion-prodcutos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.section1 h2 {
+  color: #ffefd5;
+  /* padding-top: 100px; */
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.imagen-productos-fermentados {
+  height: 100px;
+  width: 50%;
+  margin-right: 30px;
+}
+
+.pregunta-fermentados h2 {
+  color: cornflowerblue;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 25px;
+}
+
+.section1 p {
+  color: #ffefd5;
+  padding-top: 50px;
+  padding-left: 3%;
+  padding-right: 3%;
+  align-items: center;
+  font-size: 15px;
+}
+
+.imagen-presentacion {
+  height: 80%;
+  width: 100%;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+}
+
+/*FOOTER*/
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+/*Tablet*/
+@media all and (min-width:321px) and (max-width:700px)
+
+{
+    .titulo{
+        font-size: 50px;
+        background-color: red;
+    }
+/*NUEVOOO*/
+}
+
+@media all and (min-width: 700px) {
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 4%;
+    font-weight: bold;
+    position: relative;
+  }
+  .logo-container {
+    order: 0;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 10%;
+    width: 10%;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  a {
+    color: papayawhip;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  a:hover {
+    color: cornflowerblue;
+  }
+  /*MAIN*/
+  .titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: papayawhip;
+    margin-bottom: 100px;
+    font-size: 100px;
+  }
+  .presentacion-prodcutos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .section1 h2 {
+    color: papayawhip;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 40px;
+  }
+  .imagen-productos-fermentados {
+    height: 50%;
+    width: 50%;
+    margin-right: 80px;
+  }
+  .pregunta-fermentados h2 {
+    color: cornflowerblue;
+    padding-top: 170px;
+    padding-left: 30%;
+    font-size: 40px;
+  }
+  .section1 p {
+    color: papayawhip;
+    align-items: center;
+    font-size: 30px;
+  }
+  .imagen-presentacion {
+    height: 80%;
+    width: 100%;
+  }
+  /*FOOTER*/
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+}
+/*historia*/
+.section2 {
+  background-color: black;
+}
+
+.section2 h2 {
+  color: #ffefd5;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 40px;
+}
+
+.p-historia {
+  color: #ffefd5;
+  align-items: center;
+  font-size: 30px;
+  padding-top: 170px;
+  padding-left: 30%;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */

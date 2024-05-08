@@ -86,7 +86,7 @@ a:hover{
     min-width: 50px;
     height: 50px; */
     /* background-color: black; */
-} 
+}
 
 /*MAIN*/
 .titulo {
@@ -117,6 +117,13 @@ a:hover{
     width: 50%;
     margin-right: 30px;
 }
+ 
+
+/*NUEVO*/
+.carousel-inner{ 
+    display: none;
+}
+
 
 .pregunta-fermentados h2{
     color: cornflowerblue;
@@ -138,8 +145,6 @@ a:hover{
 .imagen-presentacion{
     height: 80%;
     width: 100%;
-    /* margin-left: 40px;
-    margin-right: 40px; */
 }
 
 /*FOOTER*/
@@ -166,6 +171,53 @@ a:hover{
     transform: scale(1.2);
 }
 
+
+/*NUEVO*/
+
+/*historia*/
+
+.section2{
+    background-color:  black;
+}
+.section2 h2{
+    color: papayawhip;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+.p-historia{
+    color: papayawhip;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 170px;
+    padding-left: 30%;
+    margin-right: 50px;
+    font-size: 30px;
+}/*NUEVO*/
+.section5{
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+/*Tablet*/
+@media all and (min-width:321px) and (max-width:700px)
+
+{
+    .titulo{
+        font-size: 50px;
+        background-color: red;
+    }
+/*NUEVOOO*/
+}
+
+
+/*Desktop*/
 @media all and (min-width: 700px) 
 {
 
@@ -266,25 +318,4 @@ a:hover{
     .buttons a:hover {
         transform: scale(1.2);
     }
-}
-
-/*historia*/
-
-.section2{
-    background-color:  black;
-}
-.section2 h2{
-    color: papayawhip;
-    padding-top: 100px;
-    padding-left: 50px;
-    font-size: 40px;
-}
-
-.p-historia{
-    color: papayawhip;
-    align-items: center;
-    font-size: 30px;
-    padding-top: 170px;
-    padding-left: 30%;
-    font-size: 40px;
 }

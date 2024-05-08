@@ -1,0 +1,54 @@
+
+/*MAIN*/
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $color-claro;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 40px;
+}
+
+.presentacion-prodcutos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 90px; 
+}
+
+.section1 h2{
+    color:$color-claro;
+    /* padding-top: 100px; */
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.imagen-productos-fermentados{
+    height: 100px;
+    width: 50%;
+    margin-right: 30px;
+}
+
+.pregunta-fermentados h2{
+    color: cornflowerblue;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+}
+
+.section1 p{
+    color: $color-claro;
+    padding-top: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    font-size: 15px;
+}
+
+.imagen-presentacion{
+    height: 80%;
+    width: 100%;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
