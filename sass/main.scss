@@ -1,11 +1,12 @@
 //reset
-@import './reset/variables';
-@import './reset/configuracion';
+@import './reset/_variables';
+@import './reset/_configuracion';
+@import './reset/_mixin.scss';
 //header
-@import 'encabezado';
+@import '_encabezado';
 
 //main-aside-footer
-@import 'principal';
+@import '_principal';
 @import './pie';
 //mq
 @import './reset/mq';
