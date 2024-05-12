@@ -9,3 +9,10 @@ Este repositorio contiene el código fuente de una página web simple diseñada 
 - Locales
 - Productos
 - Contactos
+
+
+## Como ejecutar
+
+1. Clonar repositorio
+2. Dentro de la raiz del proyecto utilizar "npm i"
+3. Por ultimo utilizar el comando "npm run watch-css"
