@@ -99,8 +99,6 @@ a:hover {
 .imagen-presentacion {
   height: 80%;
   width: 100%;
-  /* margin-left: 40px;
-  margin-right: 40px; */
 }
 
 .section3 h2 {
@@ -300,7 +298,6 @@ a:hover {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-
 .buttons a {
   text-decoration: none;
   font-size: 28px;
