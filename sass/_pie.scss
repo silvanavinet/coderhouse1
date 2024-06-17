@@ -1,33 +1,39 @@
 /*FOOTER*/
 
-.buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 10px;
+footer {
+  background-color: #ffefd5;
+  
+    section {
+        height: 60px;
+        margin: auto;
+        padding-top: 20px; 
+        display: flex;
+        width: 50%;
+        justify-content: space-around; 
+        align-items: center;
+    }
 
-    a{
+    a {
         text-decoration: none;
         font-size: 28px;
         width: 60px;
         height: 60px;
-        margin-bottom: 20px;
         line-height: 20px;
-        text-align: center;    
+        text-align: center;
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
+
+  p {
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    margin-bottom: 0;
+    font-weight: 700;
+    height: 40px;
+    padding-bottom: 20px;
   }
 
-  
-// .buttons a {
-//     text-decoration: none;
-//     font-size: 28px;
-//     width: 60px;
-//     height: 60px;
-//     margin-bottom: 20px;
-//     line-height: 20px;
-//     text-align: center;
-// }
-
-.buttons a:hover {
-    transform: scale(1.2);
 }

@@ -270,46 +270,40 @@ a:hover {
     height: 80%;
     width: 100%;
   }
-  /*FOOTER*/
-  .buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-  .buttons a {
-    text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px;
-    line-height: 20px;
-    text-align: center;
-  }
-  .buttons a:hover {
-    transform: scale(1.2);
-  }
 }
 
 /*FOOTER*/
-.buttons {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-  margin-top: 10px;
+footer {
+  background-color: #ffefd5;
 }
-.buttons a {
+footer section {
+  height: 60px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
   text-decoration: none;
   font-size: 28px;
   width: 60px;
   height: 60px;
-  margin-bottom: 20px;
   line-height: 20px;
   text-align: center;
 }
-
-.buttons a:hover {
+footer a:hover {
   transform: scale(1.2);
+}
+footer p {
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+  margin-bottom: 0;
+  font-weight: 700;
+  height: 40px;
+  padding-bottom: 20px;
 }
 
 @media all and (min-width: 700px) {
@@ -381,25 +375,6 @@ a:hover {
     height: 80%;
     width: 100%;
   }
-  /*FOOTER*/
-  .buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-  .buttons a {
-    text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px;
-    line-height: 20px;
-    text-align: center;
-  }
-  .buttons a:hover {
-    transform: scale(1.2);
-  }
 }
 /*historia*/
 .section2 {
@@ -410,15 +385,6 @@ a:hover {
   color: #ffefd5;
   padding-top: 100px;
   padding-left: 50px;
-  font-size: 40px;
-}
-
-.p-historia {
-  color: #ffefd5;
-  align-items: center;
-  font-size: 30px;
-  padding-top: 170px;
-  padding-left: 30%;
   font-size: 40px;
 }
 
